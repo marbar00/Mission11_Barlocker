@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission11__Barlocker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34b4edbca35c21c178a3cca36744d32d1f1ff297")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c5462ec12f7392fd557106620f976274d81dfe4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission11__Barlocker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission11__Barlocker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
