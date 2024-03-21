@@ -1,7 +1,17 @@
+using Mission11__Barlocker.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    options.UseSqlite(builder.Configuration["ConnectionStrings:DBConnection"]);
+});
+
+builder.Services.AddScoped<IDataRepo, EFDataRepo>();
 
 var app = builder.Build();
 

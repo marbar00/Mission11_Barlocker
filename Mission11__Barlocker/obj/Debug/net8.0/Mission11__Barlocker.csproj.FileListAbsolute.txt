@@ -28,3 +28,4 @@
 /Users/markbarlocker/RiderProjects/Mission11__Barlocker/Mission11__Barlocker/obj/Debug/net8.0/Mission11__Barlocker.pdb
 /Users/markbarlocker/RiderProjects/Mission11__Barlocker/Mission11__Barlocker/obj/Debug/net8.0/Mission11__Barlocker.genruntimeconfig.cache
 /Users/markbarlocker/RiderProjects/Mission11__Barlocker/Mission11__Barlocker/obj/Debug/net8.0/ref/Mission11__Barlocker.dll
+/Users/markbarlocker/RiderProjects/Mission11__Barlocker/Mission11__Barlocker/obj/Debug/net8.0/Mission11__Barlocker.sourcelink.json
