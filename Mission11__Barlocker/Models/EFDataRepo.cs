@@ -7,6 +7,12 @@ public class EFDataRepo : IDataRepo
     { 
         _context = temp;
     }
-    
     public List<Book> Books => _context.Books.ToList();
+    public List<Book> GetBooks(int pageNumber, int pageSize)
+    {
+        return _context.Books
+            .Skip((pageNumber - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+    }
 }

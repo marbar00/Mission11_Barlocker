@@ -20,3 +20,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.book-tile {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
